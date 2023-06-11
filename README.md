@@ -1,1 +1,1 @@
-https://tiiny.host/?content=pdf
+https://agrishop-report.tiiny.site/
