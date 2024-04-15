@@ -13,10 +13,13 @@
 }
 
 .home-page {
+  padding-right: 4%;
+  padding-left: 6%;
   display: flex;
   flex-wrap: wrap;
   
 }
+
 .home-page .card {
   background-color: rgba(128, 128, 128, 0.097);
   width: 18rem;
@@ -49,7 +52,9 @@
 }
 
 .home-page .card-img-top {
-  height: 300px !important;
+  height: 250px !important;
+  /* width: 300px; */
+  align-items: center;
 }
 /* ==================
 filters

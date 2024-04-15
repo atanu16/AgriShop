@@ -22,8 +22,8 @@ const Header = () => {
   };
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+        <div className="container-fluid ">
           <button
             className="navbar-toggler"
             type="button"
@@ -39,7 +39,7 @@ const Header = () => {
             <Link to="/" className="navbar-brand">
                AgriShop
             </Link>
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav ms-auto   mb-2 mb-lg-0">
               <SearchInput />
               <li className="nav-item">
                 <NavLink to="/" className="nav-link ">
