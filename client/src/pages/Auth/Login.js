@@ -5,7 +5,10 @@ import { useNavigate, useLocation } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
 import { useAuth } from "../../context/auth";
-import vid from "../Auth/1.mp4"
+// import vid from "../Auth/1.mp4"
+
+
+// https://github.com/AvinashJ74/AgriShop/assets/83860778/dcc330e0-3690-48f4-a135-073c038b6b38
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -42,8 +45,8 @@ const Login = () => {
   return (
     <Layout title="Login - AgriShop">
       <video className="background-video" autoPlay loop muted >
-            <source src={vid} type='video/mp4' />
-            <source src="https://youtu.be/NOt5Jl2IOD8" type="video/ogg" /> 
+            <source src={"https://github.com/AvinashJ74/AgriShop/assets/83860778/dcc330e0-3690-48f4-a135-073c038b6b38"} type='video/mp4' />
+           
     </video>
       <div className="form-container " style={{ minHeight: "90vh" }}>
         <form onSubmit={handleSubmit}>
