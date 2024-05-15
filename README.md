@@ -8,10 +8,6 @@
 
 
 
-## Authors
-
-- [@Avinash jena](https://github.com/AvinashJ74)
-
 
 ## Tech Stack
 
